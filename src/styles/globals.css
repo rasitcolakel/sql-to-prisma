@@ -8,6 +8,17 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.cm-editor {
+  width: 50vw;
+  height: 100vh;
+}
+
+/* cm-editor 1 px border right on first,  */
+
+.cm-editor:first-child {
+  border-right: 1px solid #000;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
